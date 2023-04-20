@@ -1,0 +1,53 @@
+#Bienvenidos {
+	margin-top: 10px;
+	position: center;
+
+}
+
+#Bienvenidos img {
+	width: 100%;
+	height: 200%;
+}
+
+#Bienvenidos .contenedor {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: #333;
+}
+
+
+@media (min-width: 480px) {
+	#Bienvenidos h2 {
+		font-size: 28px;
+
+	}
+
+
+	#Bienvenidos a {
+		margin-top: 25px;
+	}
+}
+
+@media (min-width:768px) {
+	#Bienvenidos {
+		height: 300px;
+		overflow: hidden;
+
+	}
+
+	#Bienvenidos img {
+		height: auto;
+		margin-top: -100px;
+	}
+}
+
+@media (min-width:1024px) {
+
+	#Bienvenidos img {
+		margin-top: -200px;
+	}
+}
+
+

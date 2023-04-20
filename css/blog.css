@@ -1,0 +1,46 @@
+#blog {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin-top: 10px;
+	position: relative;
+
+}
+
+#blog img {
+	width: 100%;
+	height: 200%;
+}
+
+
+#blog h3, h4 {
+	text-align: center;
+}
+
+
+#blog .contenedor {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+#blog article {
+	margin: 15px;
+}
+
+#blog img {
+	width: 200%;
+	max-width: 300px;
+
+}
+
+.blog-blog img {
+	width: 500px;
+	height: 300px;
+	border-image: 50%;
+	border: 5px solid #B17A0B;
+}
+
+
